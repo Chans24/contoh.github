@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilihan WO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #800000;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #f7f7f7;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            color: #f7f7f7;
+        }
+
+        .back-to-home {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #d2b48c;
+            color: #6e260e;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .back-to-home:hover {
+            background-color: #555;
+        }
+
+        .container {
+            background-color: #C0C0C0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .organizer-title {
+            margin: 20px 0;
+            font-size: 28px;
+            color: #000000;
+        }
+        
+        .organizer-body {
+            margin: 20px 0;
+            font-size: 18px;
+            color: #000000;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+        }
+
+        .card h2 {
+            font-size: 20px;
+            margin: 0 0 10px;
+        }
+
+        .card p {
+            color: #777;
+            margin: 10px 0;
+        }
+
+        .card .price {
+            font-size: 18px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .card button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .card button:hover {
+            background-color: #555;
+        }
+
+        .card button a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .card button a:hover {
+            color: #ddd;
+        }
+
+        .back-to-home-fixed {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            background-color: #800000; /* Merah marun */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .back-to-home-fixed:hover {
+            background-color: #a52a2a; /* Warna merah marun lebih terang saat dihover */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Silahkan pilih Wedding Organizer yang anda inginkan</h1>
+        <p>Temukan paket pernikahan terbaik sesuai keinginan Anda. Kami menyediakan berbagai layanan untuk membuat hari istimewa Anda menjadi lebih berkesan.</p>
+    </header>
+    
+    <!-- First Container -->
+    <div class="container">
+        <div class="organizer-title">
+            AYO RABI - WEDDING ORGANIZER
+        </div>
+        <div class="organizer-body">
+            <p>Setiap Detail, Setiap Moment, Sempurna</p>
+        </div>
+        <main>
+            <div class="card">
+                <h2>Paket Silver</h2>
+                <p>Ideal untuk pernikahan kecil dengan anggaran terbatas. Termasuk dekorasi sederhana dan layanan catering.</p>
+                <p class="price">Harga: Rp 15.000.000</p>
+                <button><a href="detail1.html">Lihat Detail</a></button>
+            </div>
+            <div class="card">
+                <h2>Paket Gold</h2>
+                <p>Paket lengkap dengan dekorasi mewah, layanan catering premium, dan fotografer profesional.</p>
+                <p class="price">Harga: Rp 30.000.000</p>
+                <button><a href="detail2.html">Lihat Detail</a></button>
+            </div>
+            <div class="card">
+                <h2>Paket Platinum</h2>
+                <p>Paket eksklusif untuk pernikahan besar, termasuk dekorasi elegan, layanan catering terbaik, fotografer, dan videografer profesional.</p>
+                <p class="price">Harga: Rp 50.000.000</p>
+                <button><a href="detail3.html">Lihat Detail</a></button>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Second Container -->
+    <div class="container">
+        <div class="organizer-title">
+            TRIGAMAS WEDDING ORGANIZER
+        </div>
+        <div class="organizer-body">
+            <p>Mewujudkan Pernikahan Impian Anda</p>
+        </div>
+        <main>
+            <div class="card">
+                <h2>Paket Classic</h2>
+                <p>Ideal untuk pernikahan kecil dengan anggaran terbatas. Termasuk dekorasi sederhana dan layanan catering.</p>
+                <p class="price">Harga: Rp 20.000.000</p>
+                <button><a href="detail4.html">Lihat Detail</a></button>
+            </div>
+            <div class="card">
+                <h2>Paket WAW</h2>
+                <p>Paket lengkap dengan dekorasi mewah, layanan catering premium, dan fotografer profesional.</p>
+                <p class="price">Harga: Rp 45.000.000</p>
+                <button><a href="detail5.html">Lihat Detail</a></button>
+            </div>
+            <div class="card">
+                <h2>Paket AMAZING</h2>
+                <p>Paket eksklusif untuk pernikahan besar, termasuk dekorasi elegan, layanan catering terbaik, fotografer, dan videografer profesional.</p>
+                <p class="price">Harga: Rp60.000.000</p>
+                <button><a href="detail6.html">Lihat Detail</a></button>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Third Container -->
+    <div class="container">
+        <div class="organizer-title">
+          SATU PINTU WEDDING ORGANIZER
+        </div>
+        <div class="organizer-body">
+            <p>Hari Istimewa, Kenangan Abadi</p>
+        </div>
+        <main>
+            <div class="card">
+                <h2>Paket Nice</h2>
+                <p>Ideal untuk pernikahan kecil dengan anggaran terbatas. Termasuk dekorasi sederhana dan layanan catering.</p>
+                <p class="price">Harga: Rp 50.000.000</p>
+                <button><a href="detail7.html">Lihat Detail</a></button>
+            </div>
+            <div class="card">
+                <h2>Paket Good Job</h2>
+                <p>Paket lengkap dengan dekorasi mewah, layanan catering premium, dan fotografer profesional.</p>
+                <p class="price">Harga: Rp 80.000.000</p>
+                <button><a href="detail8.html">Lihat Detail</a></button>
+            </div>
+            <div class="card">
+                <h2>Paket All Inclusive</h2>
+                <p>Paket eksklusif untuk pernikahan besar, termasuk dekorasi elegan, layanan catering terbaik, fotografer, dan videografer profesional.</p>
+                <p class="price">Harga: Rp 100.000.000</p>
+                <button><a href="detail9.html">Lihat Detail</a></button>
+            </div>
+        </main>
+    </div>
+    <a href="index.html" class="back-to-home-fixed">Kembali Ke Beranda</a>
+</body>
+</html>

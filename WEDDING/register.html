@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #800000;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #555;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #333;
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        p a {
+            color: #800000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        p a:hover {
+            text-decoration: underline;
+        }
+
+        
+        .back-button {
+            display: block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: #800000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .back-button:hover {
+            background-color: #a52a2a;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registrasi WO</h2>
+        <form action="process_register.php" method="POST">
+            <input type="text" name="username" placeholder="Email" required>
+            <br>
+            <input type="password" name="password" placeholder="Password" required>
+            <br>
+            <input type="submit" value="Register">
+        </form>
+        <p>Sudah punya akun? <a href="login.html">Login disini</a></p>
+        <a href="index.html" class="back-button">Kembali ke Beranda</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1; /* Latar belakang kuning muda */
+    color: #333; /* Warna teks gelap untuk kontras */
+}
+
+header {
+    background-color: #800000; /* Latar belakang merah marun */
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #a52a2a; /* Warna merah marun lebih terang saat dihover */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff; /* Latar belakang putih untuk konten */
+}
+
+h1 {
+    color: #800000; /* Warna teks utama */
+}
+
+footer {
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    padding: 0.1px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.section-red {
+    background-color: #800000; /* Latar belakang merah marun untuk bagian tertentu */
+    color: white;
+    padding: 20px;
+}
+
+.section-red h2 {
+    color: #ffcc00; /* Warna teks kuning untuk kontras */
+}
+
+.section-red p {
+    color: white; /* Warna teks putih */
+}
+
+.back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #800000; /* Warna tombol kembali */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #a52a2a; /* Warna lebih terang saat dihover */
+}
+
+.feature {
+    text-align: center;
+    margin: 20px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.feature .images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.feature .images img {
+    width: 350px; /* Anda bisa mengatur ukuran sesuai keinginan */
+    height: 200px; /* Anda bisa mengatur ukuran sesuai keinginan */
+    object-fit: cover;
+}
+
+.features .feature {
+    margin-bottom: 40px;
+}
+
+.features .feature img {
+    display: inline-block;
+    margin: 5px;
+}
